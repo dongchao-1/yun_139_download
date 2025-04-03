@@ -1,0 +1,7 @@
+services:
+  app: 
+    build: .
+    volumes:
+      - "./config:/app_config"
+      - "./log:/app_log"
+      - "./data:/app_data"
